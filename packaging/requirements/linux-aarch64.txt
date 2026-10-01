@@ -1,0 +1,7 @@
+-r common.txt
+
+# These exact builds reproduce the original ARM environment.
+torch==2.0.0+cuda11.6
+torchdata==0.7.1
+torchtext==0.15.2a0+4571036
+

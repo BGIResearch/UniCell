@@ -1,0 +1,13 @@
+include README_ZH.md
+include LICENSE
+include packaging/README.md
+include packaging/USAGE.md
+include packaging/USAGE_ZH.md
+include THIRD_PARTY_NOTICES.md
+include docs/RELEASE_NOTES_0.2.1.md
+recursive-include tests *.py
+recursive-include licenses *
+recursive-include unicell *.obo *.gml *.json *.npy *.tsv *.txt
+global-exclude *.py[cod]
+global-exclude *.ipynb
+global-exclude __pycache__

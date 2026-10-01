@@ -1,0 +1,26 @@
+{
+    "global": {
+      "species": ["Homo sapiens", "Mus musculus"],
+      "tissue": ["brain", "lung", "heart"],
+      "cell_type": ["CL:0000540", "CL:0000127", "CL:0000236"]
+    },
+    "hierarchy": {
+      "Homo sapiens": {
+        "tissue": {
+          "brain": {
+            "cell_type": ["CL:0000540", "CL:0000127"]
+          },
+          "lung": {
+            "cell_type": ["CL:0000236"]
+          }
+        }
+      },
+      "Mus musculus": {
+        "tissue": {
+          "brain": {
+            "cell_type": ["CL:0000540"]
+          }
+        }
+      }
+    }
+  }

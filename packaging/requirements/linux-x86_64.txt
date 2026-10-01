@@ -1,0 +1,8 @@
+-r common.txt
+
+# Official PyTorch 2.0.0 Linux x86_64 CUDA 11.7 target.
+# This set must be smoke-tested on a native x86_64 GPU node.
+torch==2.0.0+cu117
+torchdata==0.6.0
+torchtext==0.15.1
+
